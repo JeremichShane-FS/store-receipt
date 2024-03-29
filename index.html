@@ -1,0 +1,52 @@
+<!-- 
+Shane Jeremich
+October 31st, 2023
+Code Exercise 03: Let's Go Shopping 
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <title>CE03 Let's Go Shopping</title>
+</head>
+
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>My Store Name</h1>
+      <p>1234 Who knows Dr</p>
+      <p>Somewhere, USA</p>
+      <p>(XXX) XXX-XXXX</p>
+    </header>
+
+    <section class="receipt-wrapper">
+      <div class="transaction-details">
+        <p>ST# 02537</p>
+        <p>OP# 009027</p>
+        <p>TE# 27</p>
+        <p>TR# 03989</p>
+      </div>
+
+      <ul class="receipt-items" id="receipt-items">
+      </ul>
+      <ul class="receipt-items" id="totals">
+      </ul>
+      <ul class="receipt-items" id="tender"></ul>
+
+      <div class="transaction-date" id="transaction-date">
+      </div>
+
+      <img src="img/barcode.png" alt="receipt barcode">
+
+    </section>
+    <p class="thanks">Thank you for shopping at My Store Name!</p>
+  </main>
+
+  <script src="js/script.js"></script>
+  <script src="js/havingFun.js"></script>
+  </script>
+</body>
+
+</html>
